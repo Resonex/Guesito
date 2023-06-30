@@ -17,6 +17,33 @@ line_4=["D","I","N","S","X"]
 line_5=["E","J","O","T","Y"]
 vertical_lines =[line_1 , line_2 , line_3 , line_4 ,line_5]
 
+# Colors
+
+black="\033[1;30m"
+red="\033[1;31m"
+green="\033[1;32m"
+yellow="\033[1;33m"
+blue="\033[1;34m"
+purple="\033[1;35m"
+cyan="\033[1;36m"
+violate="\033[1;37m"
+white="\033[0;37m"
+nc="\033[00m"
+
+# Output snippets
+info="${cyan}[${white}+${cyan}] ${yellow}"
+ask="${cyan}[${white}?${cyan}] ${purple}"
+error="${cyan}[${white}!${cyan}] ${red}"
+success="${cyan}[${white}√${cyan}] ${green}"
+
+clear
+echo -e "\e[95m 
+     ██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗ ██████╗   
+     ██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║████╗  ██║██╔════╝   
+     ███████║███████║██║     █████╔╝ ██║██╔██╗ ██║██║  ███╗  
+     ██╔══██║██╔══██║██║     ██╔═██╗ ██║██║╚██╗██║██║   ██║  
+     ██║  ██║██║  ██║╚██████╗██║  ██╗██║██║ ╚████║╚██████╔╝  
+     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝  \e[95;1m \e[0m\n"
 name =input(f"what's your name please? ")
 while name =="" or len(name)< 4:
     name =input(f"what's your name please? ")
