@@ -41,6 +41,8 @@ banner = lgreen+'''
   |_|\___|_|\___| |_| |_|\__,_|\___|_|\_\
 
   V 10.3.0	     By Anonymous Hackers
+
+
 print(f"Dear {name}, you're welcome \n Below is a game created by MHIZTA PIO")
 print(f'....................................................\n')
 print(f'BEFORE WE PROCEED >>>\n please, carry three letter words in your mind.\n')
