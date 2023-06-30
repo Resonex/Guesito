@@ -17,10 +17,6 @@ line_4=["D","I","N","S","X"]
 line_5=["E","J","O","T","Y"]
 vertical_lines =[line_1 , line_2 , line_3 , line_4 ,line_5]
 
-name =input(f"what's your name please? ")
-while name =="" or len(name)< 4:
-    name =input(f"what's your name please? ")
-
 banner = lgreen+'''
 
       .---.        .-----------
@@ -42,7 +38,9 @@ banner = lgreen+'''
 
   V 10.3.0	     By Anonymous Hackers
 
-
+name =input(f"what's your name please? ")
+while name =="" or len(name)< 4:
+    name =input(f"what's your name please? ")
 print(f"Dear {name}, you're welcome \n Below is a game created by MHIZTA PIO")
 print(f'....................................................\n')
 print(f'BEFORE WE PROCEED >>>\n please, carry three letter words in your mind.\n')
