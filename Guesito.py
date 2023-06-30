@@ -20,6 +20,27 @@ vertical_lines =[line_1 , line_2 , line_3 , line_4 ,line_5]
 name =input(f"what's your name please? ")
 while name =="" or len(name)< 4:
     name =input(f"what's your name please? ")
+
+banner = lgreen+'''
+
+      .---.        .-----------
+     /     \  __  /    ------
+    / /     \(  )/    -----
+   //////   ' \/ `   ---
+  //// / // :    : ---
+ // /   /  /`    '--
+//          //..\\\
+
+       ====UU====UU====
+           '//||\\\`
+             ''``
+ _____    _        _   _            _
+|_   _|__| | ___  | | | | __ _  ___| | __
+  | |/ _ \ |/ _ \ | |_| |/ _` |/ __| |/ /
+  | |  __/ |  __/ |  _  | (_| | (__|   <
+  |_|\___|_|\___| |_| |_|\__,_|\___|_|\_\
+
+  V 10.3.0	     By Anonymous Hackers
 print(f"Dear {name}, you're welcome \n Below is a game created by MHIZTA PIO")
 print(f'....................................................\n')
 print(f'BEFORE WE PROCEED >>>\n please, carry three letter words in your mind.\n')
